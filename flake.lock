@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1626464457,
+        "narHash": "sha256-u2PCh/+8vQSLwf0mPpKHKQ8hAPB3l4uNZR3r0TdK2Lg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c6c4a3d45ab200f17805d2d86a1ff1cc7ca2b186",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-unstable",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "tccHeaders": "tccHeaders"
+      }
+    },
+    "tccHeaders": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1626658313,
+        "narHash": "sha256-4rmM2ROh7XPPw/fOeeFcfQkFBe3f/2Zvvk5zghgDXkQ=",
+        "owner": "shadowninja55",
+        "repo": "tcc-headers",
+        "rev": "6aa22c9114e5ea0051f907823ee7404b54ba8f20",
+        "type": "github"
+      },
+      "original": {
+        "owner": "shadowninja55",
+        "repo": "tcc-headers",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
